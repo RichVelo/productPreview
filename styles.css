@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-    width: 375px;
+    max-width: 75vw;
 }
 .sale-price {
     font-family: var(--Faunces);
@@ -37,7 +37,6 @@ body {
     font-family: var(--Montserrat);
     font-size: 1rem;
     color: var(--Dark-grayish-blue);
-    text-decoration: line-through;
     text-decoration-thickness: 0.15rem;
 }
 
