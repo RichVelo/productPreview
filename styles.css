@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-    max-width: 75vw;
+    max-width: 80vw;
 }
 .sale-price {
     font-family: var(--Faunces);
@@ -44,6 +44,8 @@ body {
     background-color: var(--Dark-cyan);
     color: var(--White);
     border: none;
+    height: 50px;
+    font-size: 1rem;
 }
 .btn:hover {
     background-color: var(--Very-dark-cyan) !important;
@@ -55,8 +57,7 @@ body {
 }
 
 .card-body {
-    height: 80%;
-    padding: 25px;
+    padding: 50px;
 }
 
 .keyword {
@@ -78,6 +79,3 @@ body {
     font-weight: 500;
     color: var(--Dark-grayish-blue);
 }
-
-
-/* Media Query */
