@@ -1,6 +1,7 @@
 :root {
     /* primary colours */
     --Dark-cyan: hsl(158, 36%, 37%);
+    --Very-dark-cyan: hsl(155, 36%, 25%);
     --Cream: hsl(30, 38%, 92%);
     /* neutral colours */
     --Very-dark-blue: hsl(212, 21%, 14%);
@@ -11,22 +12,73 @@
     --Faunces: 'Fraunces', serif;
     /* font-family: 'Fraunces', serif; */
 
-    --Overpass: 'Overpass', sans-serif;
-    /* font-family: 'Overpass', sans-serif; */
+    --Montserrat: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 html {
-    margin: 0;
-    background-color: var(--Cream);
     font-size: 14px;
 }
 
 body {
-    max-width: 1440;
+    background-color: var(--Cream);
 }
 
+.container {
+    width: 375px;
+}
+.sale-price {
+    font-family: var(--Faunces);
+    font-size: 2.5rem;
+    color: var(--Dark-cyan);
+}
 
+.original-price {
+    font-family: var(--Montserrat);
+    font-size: 1rem;
+    color: var(--Dark-grayish-blue);
+    text-decoration: line-through;
+    text-decoration-thickness: 0.15rem;
+}
 
+.btn {
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+    border: none;
+}
+.btn:hover {
+    background-color: var(--Very-dark-cyan) !important;
+    color: var(--White) !important;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body {
+    height: 80%;
+    padding: 25px;
+}
+
+.keyword {
+    font-family: var(--Montserrat);
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    color: var(--Dark-grayish-blue);
+}
+
+.card-title {
+    font-family: var(--Faunces);
+    font-size: 2.5rem;
+
+}
+
+.card-text {
+    font-family: var(--Montserrat);
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--Dark-grayish-blue);
+}
 
 
 /* Media Query */
