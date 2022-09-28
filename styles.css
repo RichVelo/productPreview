@@ -24,9 +24,6 @@ body {
     background-color: var(--Cream);
 }
 
-.container {
-    max-width: 80vw;
-}
 .sale-price {
     font-family: var(--Faunces);
     font-size: 2.5rem;
@@ -44,20 +41,11 @@ body {
     background-color: var(--Dark-cyan);
     color: var(--White);
     border: none;
-    height: 50px;
     font-size: 1rem;
 }
 .btn:hover {
     background-color: var(--Very-dark-cyan) !important;
     color: var(--White) !important;
-}
-
-.card {
-    height: 100%;
-}
-
-.card-body {
-    padding: 50px;
 }
 
 .keyword {
